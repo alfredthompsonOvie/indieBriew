@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Get Started</title>
+ <link rel="stylesheet" href="register.css">
+</head>
+<body>
+ <div class="wrapper">
+  <header class="padding">
+   <nav>
+    <div class="site-logo">
+     <img
+      src="assets/Logo.svg"
+      alt="this is an image of the site's logo"
+     />
+    </div>
+    <a href="index.html" class="backToHome">
+     <span><img
+      src="assets/Back Arrow.svg"
+      alt="this is an image of the back to Homepage button"
+     /></span>
+     <span class="previousTitle">Back to homepage</span>
+    </a>
+   </nav>
+  </header>
+  <main class="main padding">
+   <section class="content">
+    <h1>Create your personalized feed.</h1>
+    
+    <div class="content-detail">
+     <p>🎈</p>
+     <p><strong>Over 20 resources.</strong> With resources ranging from Reddit to IndieHackers, we've got all your needs covered.</p>
+    </div>
+    <div class="content-detail">
+     <p>🗞</p>
+     <p><strong>Delivered weekly.</strong> Every week at exactly Tuesday 12:00 P.M EST &mdash; expect a value-packed digest right in your email.</p>
+    </div>
+    <div class="content-detail">
+     <p>💡</p>
+     <p><strong>Unlimited ideas.</strong> With all the ideas you'll be reading about, what;s stopping you from creating a sustainable startup?.</p>
+    </div>
+   </section>
+   <form action="#">
+    <h2 class="form-title">Create your IndieBrew Account</h2>
+
+    <div class="form-group">
+     <label for="email"><h4>Email</h4></label>
+     <input type="email" name="email" class="email" id="email" placeholder="john@example.com">
+    </div>
+    <div class="form-group">
+     <label for="fullName">Full Name</label>
+     <input type="text" class="fullName" name="fullName" id="fullName" placeholder="John Doe">
+    </div>
+    <div class="form-group">
+     <label for="password">Password</label>
+     <input type="password" name="password" id="password" class="password" placeholder="At least 8 characters">
+    </div>
+    <div class="form-group checkbox-group">
+     <label for="checkbox">
+     <input type="checkbox" name="checkbox" id="checkbox" class="checkbox">
+    </label>
+     <p>By creating an account on IndieBrew, you agree to the <a href="#" class="termsAndConditions">Terms &amp; Conditions.</a></p>
+    </div>
+
+    <div class="form-group">
+     <input type="submit" value="Create an Account" id="submit" class="submit">
+    </div>
+   </form>
+  </main>
+ </div>
+</body>
+</html>
